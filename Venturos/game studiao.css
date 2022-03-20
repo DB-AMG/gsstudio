@@ -1,0 +1,196 @@
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body {
+
+
+	background: url('https://gamingcentral.in/wp-content/uploads/2017/09/bruce-straley-leaves-naughty-dog.jpg');
+	background-attachment:fixed;
+	
+	background-size: cover;
+	font-family: "roboto", sans-serif, helvetica, arial;
+	margin: 0;
+
+}
+
+.head{
+	background-color: #fff;
+	min-height: 80px;
+	width: 100%;
+	margin: 0;
+	box-shadow: 0 1px 3px 0 #888;
+	position: fixed;
+	z-index: 10;
+	display: inline-flex;
+}
+naughtydog img{
+
+	height: 66px;
+	margin-top: 7px;
+	
+	padding: 0 0 3 16px;
+}
+#menuvertical{
+	width: 71px;
+	height: auto;
+	position: fixed;
+	z-index: 5;
+	top: 145px;
+	transition: 3;
+}
+#menuvertical ul{
+	display: block;
+	width: 54px;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: relative;
+}
+#menuvertical ul li{
+	display: block;
+	width: 175px;
+	
+	position: relative;
+}
+#menuvertical ul li a{
+	position: relative;
+	display: block;
+	width: 198px;
+	height: auto;
+	box-sizing: border-box;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #ccc;
+	line-height: 2em;
+	padding: 10px 15px;
+	background: rgb(4, 52, 65);
+	text-decoration: none;
+	text-shadow: 2px 2px 3px #222;
+}
+#menuvertical ul li a:hover,
+#menuvertical ul li:hover a{
+	background: rgb(30, 60, 67);
+	color: #fff;
+}
+#menuvertical ul li ul{
+	position: absolute;
+	top: 0px;
+	left: 198px;
+	display: none;
+	width: auto;
+}
+#menuvertical ul li:hover ul{
+	display: block;
+}
+#menuvertical ul li ul li a{
+	white-space: nowrap;
+	text-transform: none;
+	padding: 10px 20px;
+	width: 153px;
+}
+#menuvertical ul li ul li a:hover{
+	background: rgb(38, 79, 88);
+	color: #fff;
+
+}
+.menu{
+	position: absolute;
+	width: 198px;
+	height: 100%;
+	background: rgb(4, 52, 65);
+	box-shadow: 1px 2px 3px #888;
+	position: fixed;
+	top: 79px;
+	z-index: 3;
+}
+.footer{
+	position: absolute;
+	width: 198px;
+	height: 88px;
+	bottom: -29px;
+	background: rgb(4, 52, 65);
+	margin-bottom: 78px;
+	z-index: 13;
+	border-top: 1px solid rgb(9, 42, 51);
+	color: rgb(52, 100, 113);
+	text-align: center;
+	padding-top: 22px;
+}
+.img_n{
+	transition: 3s;
+}
+.img_n:hover{
+	margin-left: 5px;
+	transition: .3s;
+}
+@media screen and (max-wdth: 1152px){
+	.menu{
+		width: 57px;
+		transition: .3s;
+	}
+	#menuvertical ul li a{
+		width: 57px;
+		transition: .3s;
+	}
+	#menuvertical ul li{
+		width: 57px;
+	}
+	#menuvertical ul li ul li a{
+		left: -141px;
+	}
+	.footer{
+		transform: rotate(-90deg);
+		left: 77px;
+		border-right: 1px solid rgb(9, 42, 51);
+		height: 24px;
+		bottom: 77px;
+		text-align: left;
+		padding-left: 11px;
+		padding-bottom: 25px;
+		padding-top: 6px;
+	}
+	.img_n img{
+		height: 40px;
+		margin-left: -7px;
+		margin-top: 9px;
+
+	}
+
+}
+@media screen and (min-width: 1152px){
+	.img_n img{
+		display: none;
+	}
+}
+p{
+	font-size: 25px;
+	display: block;
+	margin:  auto;
+	width: 80%;
+}
+section {
+	background: rgba(128, 128, 128,0.5);
+
+}
+#Uncharted img, #TheLastofUsRemastered img, #TheLastofUsPart2 img, #Crashbandicoot img{
+	width: 100%;
+	opacity: 0;
+	transition: 1s;
+	margin-right: 0%%;	
+	border: 10px solid rgba(0, 0, 0, 0.8);
+}
+#Uncharted img:hover, #TheLastofUsRemastered img:hover, #TheLastofUsPart2 img:hover, #Crashbandicoot img:hover{
+	opacity: 1;
+	margin-right: 0%;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+	
+

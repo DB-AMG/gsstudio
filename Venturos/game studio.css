@@ -1,0 +1,17 @@
+body {
+	background: url(https://img2.goodfon.ru/original/2560x1600/a/b4/stena-tekstura-fon-793.jpg);
+	color: #fff;
+	font-family: sans-serif;
+}
+h1{
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 150px;
+	font-size: 50px;
+}
+p{
+	font-size: 25px;
+	display: block;
+	margin: 0 auto;
+	width: 80%;
+}
